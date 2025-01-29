@@ -9,7 +9,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 
 st.title("Social Media Ads Classifier")
-st.write("This app predicts whether a user is likely to make a purchase based on their demographic information.")
+st.write("This app predicts whether a user is likely to make a purchase ")
 
 
 st.sidebar.header("User Input Features")
@@ -33,7 +33,7 @@ def user_input():
 input_data = user_input()
 
 
-st.write("### User Input:")
+st.write("## User Input:")
 st.write(input_data)
 
 
